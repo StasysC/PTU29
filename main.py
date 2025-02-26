@@ -3,7 +3,7 @@ from tkinter import *
 pagrindinis = Tk()
 
 def spausdinti():
-    uzrasas["tasdasdasd"] = "Labas"
+    uzrasas["Text"] = "Labas"
 
 pagrindinis.geometry("500x500")
 uzrasas = Label(pagrindinis, text="Sveikas, pasauli!")
